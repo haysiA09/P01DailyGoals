@@ -22,5 +22,13 @@ public class summaryActivity extends AppCompatActivity {
         tv1.setText("@string/instructions1 " + info[0] + "\n @string/instructions3 " + info[1] + "\n @string/instructions4"+info[2]
         +"\n @string/instructions5"+info[3]);
 
+
+        //create intent
+        Intent i2=new Intent(summaryActivity.this,MainActivity.class);
+
+
+        //start activity
+        startActivity(i2);
+
     }
 }
